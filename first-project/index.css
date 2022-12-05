@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-    --color-white:#5a45d0;
-    --color-darkblue:#a9a1e3;
-    --color-darkblue-alpha:rgba(234, 146, 53, 0.8);
-    --color-green:#ebc621;
+    --color-white:#48bcd1;
+    --color-darkblue:#7a9e25;
+    --color-darkblue-alpha:rgba(202, 223, 83, 0.8);
+    --color-green:#b1b253;
 }
 *,*::before,*::after{
     box-sizing: border-box;
@@ -84,7 +84,7 @@ input,button,select,textarea{
     color: #e4e4e4;
 }
 #quest{
-    color: rgb(241, 191, 98);
+    color: rgb(237, 227, 24);
     font-size: 1.5rem;
 }
 form{
