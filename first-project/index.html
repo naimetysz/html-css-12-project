@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM BASIC</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                SURVEY FORM BASIC
+            </h1>
+            <p class="description">
+
+            </p>
+        </header>
+        <form action="" class="form-survey">
+            <div class="form-group">
+                <label for="name">NAME</label>
+                
+                <input type="text" name="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="name"><E-MAIL>E-MAIL</E-MAIL>
+                
+                <input type="email" name="email" class="formControl" placeholder="Enter your email" required>
+                <div class="form-group">
+                    <label for="phone">PHONE NUMBER
+                    <span class="clue">(optional)</span></label>
+                    
+                    <input type="number" name="phone" class="formControl" placeholder="Enter your number" required>
+
+                </div>
+                <div class="form-group">
+                    <label for="adress">ADRESS</label>
+                    
+                    <input type="text" name="add" class="formControl" id="adress" placeholder="Enter your adress" required>
+        
+    </div>
+    <div class="form-group">
+        <p id="quest">
+            WHICH OPTION BEST DESCRIBE YOUR CURRENT ROLE?
+        </p>
+        <select name="role" id="dropdown" class="formcontroll"required>
+            <option value="" disabled selected>SELECT CURRENT ROLE</option>
+             <option value="student">student</option>
+            <option value="teacher">teacher</option>
+            <option value="other">other</option>
+
+    
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <p class="quest">How you come to this site</p>
+        <label for=""> 
+            <input type="radio" name="source" value="freidens"class="inputradio" checked>Friends</label>
+            <label for=""> 
+                <input type="radio" name="source" value="freidens"class="inputradio" checked>Other</label>
+                <label for=""> 
+                    <input type="radio" name="source" value="freidens"class="inputradio" checked>Internet</label>
+                    <label for=""> 
+                        <input type="radio" name="source" value="freidens"class="inputradio" checked>TV</label>
+    </div>
+
+</form>
+</body>
+</html>
