@@ -40,6 +40,7 @@
     font-size: 20px;
     padding: 6px 13px;
     font-family: 'Mukta', sans-serif;
+    transition: .5n;
 }
 .navbar ul li a.aktif,
 .navbar ul li a:hover{
@@ -77,14 +78,25 @@
 
 }
 .buttons button{
+    cursor: pointer;
     height: 50px;
     width: 150px;
     font-size: 18px;
+    font-weight: bold;
     color: bisque;
     background: rgb(203, 21, 21);
     border: solid 2px green;
     
-    
+    outline: none;
+    border-radius: 50px;
+    transition: 5sn;
 
 }
+.buttons button:hover{
+
+}
+    
+    
+
+
 
