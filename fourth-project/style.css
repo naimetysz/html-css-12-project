@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    height: 100%;
+    background-image: url(./img/pexels-ali-yasser-arwand-693521.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    
+    
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: antiquewhite;
+    color: rgb(242, 139, 36);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(242, 139, 36);
+
+}
+h2{
+    cursor: pointer;
+    transition: 0.8;
+
+}
+a:hover{
+
+    color: rgba(10, 80, 10, 0.719);
+
+}
+h2:hover{
+    color: rgb(74, 78, 12);
+}
